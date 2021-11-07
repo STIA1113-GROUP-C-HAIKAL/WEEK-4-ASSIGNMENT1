@@ -1,0 +1,35 @@
+/IIF 1 ITEM
+Welcome to C_MARTS shopping complex!
+Please enter the number of items you have bought below
+1
+Please enter the price of your first item : RM325
+Please enter the quantity of your first item : 35
+Congratulations! You have earned yourself a 20% discount!
+Discount you have received = RM1820.0
+The total expenses of your shopping is RM9100.0
+
+//IF 2 ITEMS
+Welcome to C_MARTS shopping complex!
+Please enter the number of items you have bought below
+2
+Please enter the price of your first item : RM325
+2Please enter the quantity of your first item : 
+Please enter the price of your second item : RM342
+Please enter the quantity of your second item : 5
+Congratulations! You have earned yourself a 20% discount!
+Discount you have received = RM377.6
+The total expenses of your shopping is RM1888.0
+
+// IF 3 ITEMS
+Welcome to C_MARTS shopping complex!
+Please enter the number of items you have bought below
+3
+Please enter the price of your first item : RM50
+Please enter the quantity of your first item : 3
+Please enter the price of your second item : RM50
+Please enter the quantity of your second item : 3
+Please enter the price of your third item : RM50
+Please enter the quantity of your third item : 3
+Congratulations! You have earned yourself a 20% discount!
+Discount you have received = RM72.0
+The total expenses of your shopping is RM360.0
