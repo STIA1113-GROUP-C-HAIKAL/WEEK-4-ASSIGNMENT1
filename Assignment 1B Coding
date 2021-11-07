@@ -28,11 +28,13 @@ public class Assignment1B {
 		monthlyPayment =(double) ('$' + loan / ( year * monthYear ) + (((year * monthYear) * 3.5 ) / 100 ));
 		System.out.print("The monthly payment is : $");
 		System.out.printf("%.2f", monthlyPayment);
+		System.out.print(" for the next " + year + " years");
 		System.out.println();
 
 		System.out.print("The money you currently have in your pocket is : $" + currentMoney );
+		System.out.println();
 		totalPayment = (monthlyPayment * (monthYear * year)) - currentMoney;
-		System.out.print("The total payment is ");
+		System.out.print("The total payment is $");
 		System.out.printf("%.2f", totalPayment);
 	}
 
