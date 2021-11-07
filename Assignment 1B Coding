@@ -1,0 +1,39 @@
+package assignment1;
+
+import java.util.Scanner;
+
+public class Assignment1B {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double carPrice = 5000;
+		double currentMoney = 2000;
+		double loan;
+		double interestRate;
+		double monthlyPayment;
+		double totalPayment;
+		int monthYear = 12;
+		int year;
+
+		Scanner CarScan = new Scanner(System.in);
+
+		System.out.print("Enter yearly interest rate : %");
+		interestRate = CarScan.nextDouble();
+		System.out.print("Enter number of years : ");
+		year = (int) CarScan.nextDouble();
+		System.out.print("Enter the loan you wish to have : ");
+		loan = CarScan.nextDouble();
+
+		monthlyPayment =(double) ('$' + loan / ( year * monthYear ) + (((year * monthYear) * 3.5 ) / 100 ));
+		System.out.print("The monthly payment is : $");
+		System.out.printf("%.2f", monthlyPayment);
+		System.out.println();
+
+		System.out.print("The money you currently have in your pocket is : $" + currentMoney );
+		totalPayment = (monthlyPayment * (monthYear * year)) - currentMoney;
+		System.out.print("The total payment is ");
+		System.out.printf("%.2f", totalPayment);
+	}
+
+}
